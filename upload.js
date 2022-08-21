@@ -87,7 +87,7 @@ if ($("body").data("title") === "checklist") {
 
   app.submit = () => {
     $('#save').on("click", function () {
-      window.location.href = './index.html';
+      window.location.href = './recipes.html';
     });
   }
 
