@@ -6,14 +6,15 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-/* Base & Stripping Styles here */
+
+/* Base Styles */
 
 html {
-    background-color: #F5F5F5;
-    color: #0A3D09;
+    background-color: #EBF6EB;
+    color: #000;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 125%;
+    font-size: 16px;
     overflow-x: hidden;
 }
 
@@ -22,165 +23,77 @@ html {
     padding: 0;
 }
 
-a {
-    color: #0A3D09;
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
 .wrapper {
     max-width: 1200px;
     width: 85%;
     margin: 0 auto;
 }
 
-/* Header Styles here */
+/* Main Styles */
 
-header {
-    padding-top: 20px;
-}
-
-.logo {
-    margin-top: -20px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.flexNav {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-/* Main Styles here */
-
-h1 {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.imgBox {
-    width: 100%;
-    height: 100%;
+.goBack {
     position: relative;
 }
 
-.imgBox img {
+h2 {
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.goBack img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5%;
+    left: 5%;
+}
+
+.holder {
+    position: absolute;
+    width: 391.48px;
+    height: 403px;
+    left: 18.26px;
+    top: 120px;
+
+    background: #F1F1F1;
+    border: 2px dashed #BDBDBD;
+}
+
+#imgPreview {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
-a.findRecipes {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 400;
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    background-image: url(./assets/upload/uploadButton.png);
+    color: transparent;
     position: absolute;
-    width: 155px;
-    height: 42px;
-    left: 100px;
-    top: 95px;
-    padding-top: 9px;
-    background: #1E1E1E;
-    border-radius: 10px;
-    color: #F5F5F5;
+    width: 215px;
+    height: 56px;
+    left: 107px;
+    top: 600px;
+    border: 2px solid #000000;
+    border-radius: 10px; 
 }
 
-.banner {
-    background: #EBF6EB;
-    margin-top: 10px;
-    margin-bottom: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 5px;
-}
-
-h3 span {
-    color: #83BF4F;
-}
-
-p {
-    font-size: 16px;
+button {
+    background-color: #83BF4F;
     color: #0A3D09;
-    font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h2 {
-    font-weight: 600;
     font-size: 22px;
-    color: #0A3D09;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 115px;
+    top: 680px;
+    border: 2px solid #000000;
+    border-radius: 10px; 
 }
-
-.flexGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-}
-
-.flexGrid img {
-    width: calc((40vw) - 10px);
-    margin-right: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.mission a {
-    display: block;
-    color: #000;
-    font-size: 16px;
-    text-decoration: underline;
-    margin-bottom: 30px;
-}
-
-.mission h2 {
-    margin-bottom: 20px;
-}
-
-/* Footer Styles here */
-
-footer {
-    background-color: #EBF6EB;
-    height: 100%;
-    width: 100%;
-    margin-top: 40px;
-    padding-top: 40px;
-}
-
-footer .imgBox {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    display: block;
-    
-}
-
-
-
-

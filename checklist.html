@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./checklist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body data-title="checklist">
+    <header class=" wrapper flex">
+        <img class="logo" src="./assets/homepage/logo.svg" alt="company logo">
+        <div>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper menu">
+            <ul class="flexNav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <section class="wrapper">
+            <h2>Save Ingredients</h2>
+            <div class="imgBox">
+                <img id="imgPreview2" src="./assets/checklist/Rectangle 196.png" alt="" />
+            </div>
+        </section>
+        <section class="wrapper">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>
+                    <label for="ingredientName">Ingredient 1</label>
+                    <input type="checkbox" id="" name="ingredientName" value=${addedIngredient} checked>
+                </li>
+                <li>
+                    <label for="ingredientName">Ingredient 2</label>
+                    <input type="checkbox" id="" name="ingredientName" value=${addedIngredient} checked>
+                </li>
+                <li>
+                    <label for="ingredientName">Ingredient 3</label>
+                    <input type="checkbox" id="" name="ingredientName" value=${addedIngredient} checked>
+                </li>
+            </ul>
+            <div id="ingredientList"></div>
+            <input id="ingredientInput" type="text" placeholder="add item">
+            <button id="submit">+</button>
+        </section>
+        <div class="wrapper">
+            <button id="save">Save</button>
+        </div>
+    </main>
+    <footer>
+        <div class="imgBox">
+            <img class="logo" src="./assets/homepage/logo.svg" alt="company logo">
+        </div>
+    </footer>
+    <!-- load in jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- load in script -->
+    <script src="upload.js"></script>
+</body>
+</html>

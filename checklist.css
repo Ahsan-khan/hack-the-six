@@ -64,12 +64,12 @@ header {
 
 /* Main Styles here */
 
-h1 {
-    font-size: 24px;
+h2 {
     font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-size: 22px;
+    color: #0A3D09;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .imgBox {
@@ -85,82 +85,54 @@ h1 {
     object-position: center;
 }
 
-a.findRecipes {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 400;
-    position: absolute;
-    width: 155px;
-    height: 42px;
-    left: 100px;
-    top: 95px;
-    padding-top: 9px;
-    background: #1E1E1E;
-    border-radius: 10px;
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+#ingredientList {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#submit {
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #000;
     color: #F5F5F5;
 }
 
-.banner {
-    background: #EBF6EB;
-    margin-top: 10px;
-    margin-bottom: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 5px;
-}
-
-h3 span {
-    color: #83BF4F;
-}
-
-p {
+#save {
+    background-color: #000;
+    color: #F5F5F5;
     font-size: 16px;
-    color: #0A3D09;
-    font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h2 {
-    font-weight: 600;
-    font-size: 22px;
-    color: #0A3D09;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-.flexGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-}
-
-.flexGrid img {
-    width: calc((40vw) - 10px);
-    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.mission a {
-    display: block;
-    color: #000;
-    font-size: 16px;
-    text-decoration: underline;
-    margin-bottom: 30px;
-}
-
-.mission h2 {
-    margin-bottom: 20px;
 }
 
 /* Footer Styles here */
@@ -170,7 +142,7 @@ footer {
     height: 100%;
     width: 100%;
     margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 footer .imgBox {
@@ -178,9 +150,5 @@ footer .imgBox {
     height: 100px;
     margin: 0 auto;
     display: block;
-    
 }
-
-
-
 
