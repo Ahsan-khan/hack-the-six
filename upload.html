@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link rel="stylesheet" href="./upload.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <section>
-        <h2 class="heading">Select an Image</h2>
+    <section class="wrapper">
+        <div class="goBack">
+            <h2>Upload Image</h2>
+            <img src="./assets/upload/arrow.svg" alt="back arrow">
+        </div>
         <form>
             <div class="holder">
-                <img id="imgPreview" src="#" alt="pic" />
+                <img id="imgPreview" src="#" alt="" />
             </div>
-            <input type="file" name="photograph"
-                   id="photo" required="true" />
+            <label for="photo">
+                <input type="file" name="photograph" id="photo" required="true" />
+            </label>
         </form>
     </section>
 

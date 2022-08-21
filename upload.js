@@ -16,9 +16,16 @@ app.displayImage = () => {
       });
 }
 
+app.goBack = () => {
+  $('.goBack img').on("click", function () {
+    window.location.href = './index.html';
+  });
+}
+
 // Create initialization code:
 app.init = () => {
     app.displayImage();
+    app.goBack();
 }
 
 
