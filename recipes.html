@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./recipes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body data-title="checklist">
+    <header class=" wrapper flex">
+        <img class="logo" src="./assets/homepage/logo.svg" alt="company logo">
+        <div>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+        </div>
+    </header>
+    <div class="wrapper menu">
+        <ul class="flexNav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class="wrapper">
+        <h2>Recipes</h2>
+        <ul class="flexColumn">
+            <li class="flexRow">
+                <div class="imgContainer">
+                    <img src="" alt="picture of recipe">
+                </div>
+                <div class="flexColumn">
+                    <div class="flexRow">
+                        <h3>Recipe Title</h3>
+                        <img src="./assets/recipes/Frame 105.png" alt="rating">
+                    </div>
+                    <p>Ingredients</p>
+                    <p>Instructions</p>
+                </div>
+                <div class="flexColumn">
+                    <button class="dark">view full recipe</button>
+                    <button class="light">view full recipe</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- load in jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- load in script -->
+    <script src="recipe.js"></script>
+</body>
+</html>
