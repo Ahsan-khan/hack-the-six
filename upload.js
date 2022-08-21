@@ -1,5 +1,6 @@
 const app = {};
-
+const vision = require("@google-cloud/vision");
+  
 let selectedImage;
 
 if ($("body").data("title") === "upload") {
